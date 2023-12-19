@@ -32,20 +32,12 @@ A step-by-step series of examples that tell you how to get a development environ
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
 
-Create a .env file in your project root.
-Add the following lines with your respective keys:
-
-.env
-
-STRIPE_PUBLISHABLE_KEY=your_stripe_api_key
-STRIPE_SECRET_KEY=your_stripe_api_key
-PAYPAL_CLIENT_ID=your_paypal_api_key
-PAYPAL_CLIENT_SECRET=your_paypal_api_key
+Create a .env file in your project root according to example env.
 
 Running the Application
 To run the app, execute:
